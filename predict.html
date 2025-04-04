@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predict Disease</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="upload.html">Upload Data</a></li>
+            <li><a href="retrain.html">Retrain Model</a></li>
+            <li><a href="predict.html">Predict Disease</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1 class="heading">Predict Disease</h1>
+
+        <div class="form-container">
+            <input type="file" id="predictFile">
+            <button onclick="predictDisease()">Predict</button>
+        </div>
+
+        <p id="prediction-result"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
