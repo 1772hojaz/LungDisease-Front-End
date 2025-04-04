@@ -9,21 +9,20 @@
 <body>
     <nav>
         <ul>
+            <li><a href="index.html">Predict Disease</a></li>
             <li><a href="upload.html">Upload Data</a></li>
             <li><a href="retrain.html">Retrain Model</a></li>
-            <li><a href="predict.html">Predict Disease</a></li>
+            
         </ul>
     </nav>
 
     <div class="container">
         <h1 class="heading">Retrain Model</h1>
 
-        <!-- Retrain button with dynamic text -->
         <button id="retrainButton" onclick="retrainModel()">Retrain Model</button>
         
         <p id="message"></p>
 
-        <!-- Visualize performance metrics -->
         <div id="performance-metrics" style="display: none;">
             <h2>Model Performance After Retraining</h2>
             <p id="accuracy"></p>
